@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "liboqs": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1631026239,
+        "narHash": "sha256-MzDxJHuCuuO77wLKpFPjzoxlm2slzY6Sz3hTI97dP5E=",
+        "owner": "open-quantum-safe",
+        "repo": "liboqs",
+        "rev": "65f090d55e4bb050a57fb9c7dea69e704125671a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "open-quantum-safe",
+        "repo": "liboqs",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1631098960,
+        "narHash": "sha256-6j6G/omHEFAnI2x7UvdrviGDNqiq1Fjd1A58Q6uc4sQ=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "12eb1d16ae3b6cbf0ea83e9228bca8ffd7cfe347",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-21.05",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "liboqs": "liboqs",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
